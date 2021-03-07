@@ -1,5 +1,5 @@
 # Create Storage Account
-az storage account create --name mystoragemar62021 -g learn-b9f8ca4b-adfa-4257-9da5-d2c6a8dd2ebd --kind StorageV2 --sku Standard_LRS
+az storage account create --name mystoragemar72021 -g learn-8b529a3b-30e9-4a94-a30e-a6b89ee81906 --kind StorageV2 --sku Standard_LRS
 
 # Get Connection String
-az storage account show-connection-string --name mystoragemar62021 --resource-group learn-b9f8ca4b-adfa-4257-9da5-d2c6a8dd2ebd
+az storage account show-connection-string --name mystoragemar72021 --resource-group learn-8b529a3b-30e9-4a94-a30e-a6b89ee81906
