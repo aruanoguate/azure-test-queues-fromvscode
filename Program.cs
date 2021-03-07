@@ -9,12 +9,12 @@ namespace QueueApp
     {
         private const string ConnectionString = "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=mystoragemar72021;AccountKey=FTLX2IK7oaophgq83voHtzMQaJsSeAVB+ThczBImz3OIwT7zbG/+utrisccfbpmSpAZzf6Zch/zcqtB6+iwxbA==";
         
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             if (args.Length > 0)
             {
                 string value = String.Join(" ", args);
-                SendArticleAsync(value).Wait();
+                await SendArticleAsync(value);
                 Console.WriteLine($"Sent: {value}");
             }
         }
