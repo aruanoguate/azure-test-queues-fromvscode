@@ -7,6 +7,7 @@ namespace QueueApp
 {
     class Program
     {
+        // This storage account was created inside a sandbox, so it will not exist in the future
         private const string ConnectionString = "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=mystoragemar72021;AccountKey=FTLX2IK7oaophgq83voHtzMQaJsSeAVB+ThczBImz3OIwT7zbG/+utrisccfbpmSpAZzf6Zch/zcqtB6+iwxbA==";
         
         static async Task Main(string[] args)
